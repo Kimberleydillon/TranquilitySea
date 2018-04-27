@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:stripe="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:stripe="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,38 +13,35 @@
         style="@style/Base.TextAppearance.AppCompat.Body2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
         android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
+        android:padding="15dp"
         android:text="@string/buymoresongs"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
 
 
     <com.stripe.android.view.CardInputWidget
         android:id="@+id/card_input_widget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
         android:padding="15dp"
-        stripe:cardTint="@android:color/holo_purple"
         stripe:cardTextErrorColor="@android:color/holo_orange_dark"
-        />
+        stripe:cardTint="@android:color/holo_purple" />
 
     <Button
         android:id="@+id/buy_button"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:padding="15dp"
         android:layout_marginTop="30dp"
+        android:padding="15dp"
         android:text="@string/buy"
-        android:textColor="@color/background1"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
-        />
-
+        android:textColor="@color/background1" />
 
 
 </LinearLayout>

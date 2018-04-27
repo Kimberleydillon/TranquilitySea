@@ -116,14 +116,13 @@
                 android:id="@+id/playnightincanyon"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
+                android:layout_weight="1"
                 android:padding="12dp"
                 app:materialIcon="play_circle"
                 app:materialIconColor="@android:color/white"
                 app:materialIconSize="35dp" />
-
 
 
         </LinearLayout>
@@ -181,9 +180,9 @@
                 android:id="@+id/playmonsoon"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
+                android:layout_weight="1"
                 android:padding="12dp"
                 app:materialIcon="play_circle"
                 app:materialIconColor="@android:color/white"
@@ -244,9 +243,9 @@
                 android:id="@+id/playwetlands"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
+                android:layout_weight="1"
                 android:padding="12dp"
                 app:materialIcon="play_circle"
                 app:materialIconColor="@android:color/white"

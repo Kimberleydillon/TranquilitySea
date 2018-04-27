@@ -116,9 +116,9 @@
                 android:id="@+id/windchimesplay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
+                android:padding="12dp"
                 app:materialIcon="play_circle"
                 app:materialIconColor="@android:color/white"
                 app:materialIconSize="35dp" />
