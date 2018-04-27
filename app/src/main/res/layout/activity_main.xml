@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    android:orientation="vertical"
+    tools:context="com.example.tranquilitysea.MainActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:elevation="12dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/day">
+
+                <LinearLayout
+                    android:id="@+id/day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="25dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/sun" />
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/day_playlist"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:elevation="12dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/background2">
+
+                <LinearLayout
+                    android:id="@+id/night"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="25dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/moon3" />
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/night_playlist"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:elevation="12dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimary">
+
+                <LinearLayout
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="25dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/bookhead" />
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/titles"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:elevation="12dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/background1">
+
+                <LinearLayout
+                    android:id="@+id/artists"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/background1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="25dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/microphone1" />
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/artists"
+                        android:textColor="@color/textColorDark" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:elevation="12dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/textColorDark">
+
+                <LinearLayout
+                    android:id="@+id/store"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:elevation="25dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/unimpressedtiger" />
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/store"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+</LinearLayout>
+

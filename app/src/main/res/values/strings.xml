@@ -1,0 +1,28 @@
+<resources>
+    <string name="album_art">Album Art</string>
+    <string name="app_name">Sea Tranquility</string>
+    <string name="day_playlist">Day</string>
+    <string name="night_playlist">Night</string>
+    <string name="titles">Titles</string>
+    <string name="artists">Artists</string>
+    <string name="song">Song Title</string>
+    <string name="play"> Now Playing</string>
+    <string name="time">Time</string>
+    <string name="tropical"> Tropical Beach</string>
+    <string name="tropical_artist">Samuel Higgins</string>
+    <string name="chimes">Wind Chimes</string>
+    <string name="chime_artist">Bobo Nobo</string>
+    <string name="forest">Pine Forest</string>
+    <string name="forest_artist">Bianca Sorenson</string>
+    <string name="waterfall">WaterFalls</string>
+    <string name="waterfall_artist">TLC</string>
+    <string name="monsoon">Monsoon</string>
+    <string name="monsoon_artist">Sir Rainsalot</string>
+    <string name="night_canyon">A Night in a Canyon</string>
+    <string name="night_canyon_artist">Grand</string>
+    <string name="wetlands">Wetlands</string>
+    <string name="wetlands_artist">Carlos Swampers</string>
+    <string name="store">Store</string>
+    <string name="buymoresongs">Want some new meditation songs?</string>
+    <string name="buy">Buy</string>
+</resources>

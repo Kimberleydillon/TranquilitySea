@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tranquilitysea">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DayActivity"
+            android:label="@string/day_playlist"
+            android:theme="@style/DayTheme" />
+        <activity
+            android:name=".NightActivity"
+            android:label="@string/night_playlist"
+            android:theme="@style/NightTheme" />
+        <activity
+            android:name=".TitlesActivity"
+            android:label="@string/titles" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="@string/artists"
+            android:theme="@style/ArtistTheme" />
+        <activity
+            android:name=".PlaySong"
+            android:label="Now Playing"
+            android:theme="@style/DayTheme" />
+        <activity
+            android:name=".StoreActivity"
+            android:label="Store"></activity>
+    </application>
+
+</manifest>
