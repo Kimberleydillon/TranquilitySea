@@ -48,6 +48,15 @@ public class DayActivity extends AppCompatActivity {
                 startActivity(playintent);
             }
         });
+
+        MaterialIconView back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent playintent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(playintent);
+            }
+        });
     }
 }
 

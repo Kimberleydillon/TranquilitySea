@@ -24,6 +24,8 @@ import com.google.android.gms.wallet.Wallet;
 import com.google.android.gms.wallet.WalletConstants;
 import com.stripe.android.model.Token;
 
+import net.steamcrafted.materialiconlib.MaterialIconView;
+
 import java.util.Arrays;
 
 public class StoreActivity extends AppCompatActivity {
@@ -50,6 +52,15 @@ public class StoreActivity extends AppCompatActivity {
                         PaymentDataRequest request = createPaymentDataRequest();
                     }
                 });
+
+        MaterialIconView back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent playintent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(playintent);
+            }
+        });
 
     }
 
@@ -92,7 +103,6 @@ public class StoreActivity extends AppCompatActivity {
                 // Do nothing.
         }
     }
-
 
 
     private void isReadyToPay() {

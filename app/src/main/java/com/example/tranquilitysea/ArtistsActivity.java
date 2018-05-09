@@ -57,7 +57,7 @@ public class ArtistsActivity extends AppCompatActivity {
             }
         });
 
-        MaterialIconView playMoonson= findViewById(R.id.playmonsoon);
+        MaterialIconView playMoonson = findViewById(R.id.playmonsoon);
         playMoonson.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,6 +70,15 @@ public class ArtistsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent playintent = new Intent(getApplicationContext(), PlaySong.class);
+                startActivity(playintent);
+            }
+        });
+
+        MaterialIconView back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent playintent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(playintent);
             }
         });

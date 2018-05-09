@@ -25,4 +25,11 @@
     <string name="store">Store</string>
     <string name="buymoresongs">Want some new meditation songs?</string>
     <string name="buy">Buy</string>
+    <string name="now_playingdescription">This is a "now playing" song detail screen. It will show song details and include the media player.</string>
+    <string name="store_description">This is the purchase activity or store where you can buy more meditation songs, it will use google pay and the stripe integration.</string>
+    <string name="title_description">This is a playlist is based on titles. To play each song individually press the play button located to the far right of every song</string>
+    <string name="now_nightdescription">This is a playlist of songs of the night genre. To play each song individually press the play button located to the far right of every song.</string>
+    <string name="day_description">This is a playlist of songs of the day genre. To play each song individually press the play button located to the far right of every song.</string>
+    <string name="artists_description">This is a playlist is based on Artists. To play each song individually press the play button located to the far right of every song.</string>
+    <string name="back_to_main">Back to Main</string>
 </resources>
